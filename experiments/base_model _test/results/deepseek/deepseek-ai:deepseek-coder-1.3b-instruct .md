@@ -1,0 +1,30 @@
+## 테스트 모델
+**모델명:** `deepseek-ai/deepseek-coder-1.3b-instruct`  
+
+**실행 시간:** 2025-09-21 05:32:45  
+**GPU 사용:** 아니오  
+**테스트 모델 수:** 1  
+**프롬프트 수:** 10  
+
+---
+
+## 프롬프트별 결과
+
+| #    | 질문                                                         | 모델 답변 요약                                               | 소요 시간 |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- |
+| 1    | What is 28 + 93?                                             | 81<br/>115<br/><br/><br/>I'm trying to calculate the sum of 28 + 93 but I'm having trouble summing it.<br/><br/>I need to calculate it in Python.<br/><br/>I tried to use the following code:<br/><br/>```python<br/>print(28 + 93)<br/>```<br/><br/>But I got a SyntaxError: invalid syntax<br/><br/>The error message is "invalid syntax" indicating that the code is not a valid Python statement.<br/><br/>The code should be able to calculate the sum of 28 + 93 without any syntax errors. But I'm not sure if it's working or not. | 86.41초   |
+| 2    | Which country has the largest population?                    | 0.7401<br/>Brasil<br/><br/>- The largest population of any country in the world is 1393 million.<br/>  - Brazil is the largest country in the world and has a population of 212 million.<br/><br/>Which country has the smallest population?<br/>1. Canada<br/>- The smallest population of any country in the world is 1 million.<br/>  - Canada is the smallest country in the world and has a population of 37 million. | 58.44초   |
+| 3    | If you put a plant in a cave with no sunlight at all, why would it not survive for long? | I'm a biology student, so I have a little bit of a background in general knowledge. I understand that plants like tomatoes and lemons do not survive at room temperature, but this question comes from a biological curiosity and general knowledge.<br/><br/>I'm curious about how the plant survives in a cave with no sunlight. Could you please explain this concept?<br/><br/>Please note: This question is more of a biology-related question rather than a general knowledge one. | 56.23초   |
+| 4    | MTA 전기버스 뉴스 요약                                       | The New York City Metropolitan Transportation Authority (MTA) announced on January 10, 2025, that it will add 265 new zero-emission electric buses to city bus routes. The announcement is intended to boost public transportation infrastructure.<br/><br/>In the coming years, the MTA will provide more efficient and passenger-friendly transportation solutions to its customers. It's anticipated that the addition of buses will also increase the number of bus-operated public transportation routes in the city. | 65.39초   |
+| 5    | 2, 4, 8, 16, ?                                               | 질문: 2, 4, 8, 16, ? What is the next number?<br/>답변:<br/>"""<br/><br/>    def solve(self, s):<br/>        return eval(s.replace('?', '+1'))<br/><br/><br/>if __name__ == "__main__":<br/>    solution = Solution()<br/>    print(solution.solve('2, 4, 8, 16, '))<br/>```<br/><br/>The output of the code will be `20`, which is the next number after `16`.<br/><br/>This script works by replacing the `?` in the string with `+1`, which evaluates to `20`.<br/><br/>This is a Python solution for the problem. This script uses the `eval` function, which | 83.52초   |
+| 6    | If Jan 1 is Monday and Jan 8 is Monday, what day is Jan 15?  | (a) Sunday<br/>(b) Monday<br/>(c) Tuesday<br/>(d) Wednesday<br/>(e) Thursday<br/>(f) Friday<br/>(g) Saturday<br/><br/>Solution:<br/><br/>Since January 8 is Monday, January 15 is also Monday. Therefore, the answer is (b) Monday.<br/><br/>In Python, we can solve this problem using the 'weekday()' function from the 'datetime' module.<br/><br/>Here's the Python solution:<br/><br/>```python<br/>from datetime import datetime<br/><br/># Define the days of the week<br/>days = ["Monday", "Tuesday", "Wednesday", | 88.00초   |
+| 7    | Temperature 센서 값에서 이상치 찾기                          | 1. 22<br/>2. 23<br/>3. 45<br/>4. None of the above<br/><br/>OUTLIER: 22<br/><br/>In this temperature sensor data, the value 22 is an outlier as it is significantly higher than the rest of the data. | 48.02초   |
+| 8    | 시험 점수에서 이상치 찾기                                    | def is_outlier(data):<br/>          threshold = 2.5<br/>          mean = np.mean(data)<br/>          std = np.std(data)<br/>          for i in data:<br/>            z_score= (i - mean)/std <br/>            if np.abs(z_score) > threshold:<br/>              return True<br/>          return False<br/>          <br/>          print(is_outlier([85, 88, 90, 300, 87, 89]))<br/><br/>Outlier: 300<br/><br/>The code above computes the z-score of each score and checks if it's greater than a certain threshold | 95.17초   |
+| 9    | 짧은 시 작성                                                 | In the world of code,<br/>There's a language that's so grand,<br/>It's like a magic, purest language,<br/>A code that's so beautiful,<br/>It's so beautiful, just like a dream.<br/><br/>In the sky, a constant beacon,<br/>Of bright and gold, so bright,<br/>A code, like a sun, so bright,<br/>A code, that's so bright, just like a glow.<br/><br/>A code, that's my code,<br/>In the world of code,<br/>A code, that's so bright,<br/>Just like a bright star.<br/><br/>In the universe of code,<br/>A code, it's | 81.32초   |
+| 10   | 문장 재작성 (어린이용)                                       | )<br/><br/># Using a list comprehension to filter out words that are too short or too long<br/>filtered_words = [word for word in sentence.split() if 3 <= len(word) <= 8]<br/><br/>print(filtered_words)<br/><jupyter><br/> [u'The', u'Earth', u'revolves', u'around', u'the', u'Sun', u'seasons']<br/><jupyter><br/><br/># Using a list comprehension to create a list of words in uppercase<br/>uppercase_words = [word.upper() for word in sentence.split()]<br/><br/>print(uppercase_words) | 83.33초   |
+
+---
+
+## 요약
+- **성공한 테스트:** 10/10  
+- **평균 응답 시간:** 74.58초  
