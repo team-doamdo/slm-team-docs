@@ -1,16 +1,6 @@
 # 언어모델 벤치마크 테스트 답변 요약
 
-## 모델별 성능 개요
-
-| 모델 | 평균 응답시간 | 성공률 |
-|------|---------------|--------|
-| deepseek-ai/deepseek-coder-1.3b-instruct | 74.58초 | 10/10 |
-| google/gemma-3-1b-it | 29.39초 | 10/10 |
-| kakaocorp/kanana-nano-2.1b-instruct | 129.57초 | 10/10 |
-| meta-llama/Llama-3.2-1B-Instruct | 70.10초 | 10/10 |
-| Qwen/Qwen3-1.7B | 140.58초 | 10/10 |
-
-## 프롬프트별 답변 상세 비교
+## 답변 summary
 
 | 질문 | DeepSeek | Gemma | Kakao | Llama | Qwen |
 |------|----------|--------|-------|--------|------|
