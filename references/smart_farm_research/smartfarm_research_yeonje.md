@@ -36,7 +36,24 @@
 - **FGrade Dataset**  
   - 신선도/부패 정도 10단계 라벨 포함 (6천여 장)  
 - **Mendeley Real-world Tomato Dataset**  
-  - 성장 단계·다양한 환경 조건 포함, 현실성 높음  
+  - 성장 단계·다양한 환경 조건 포함, 현실성 높음
+
+
+# 토마토 이미지 데이터셋 개요 및 링크 🔗
+
+아래는 토마토 관련 이미지 데이터셋 또는 논문에서 공개된 데이터셋 링크들을 정리한 거야.  
+너희가 실험 설계할 때 실제로 다운로드 가능 여부 체크해서 활용하면 좋아.
+
+| 데이터셋 이름 | 특징 / 포함 라벨 | 링크 / 출처 |
+|---|---|---|
+| **Tomato Maturity Detection & Quality Grading Dataset** | 익음 여부(immature / mature) + 신선/부패 구분 | Mendeley: *Tomato Maturity Detection and Quality Grading Dataset* :contentReference[oaicite:0]{index=0} |
+| **Laboro Tomato** | 다양한 익음 단계 포함, 객체 탐지 및 분할 가능 | Kaggle: Laboro Tomato 데이터셋 :contentReference[oaicite:1]{index=1} |
+| **KUTomaData (in “Tomato Maturity Recognition with Convolutional Transformers” 논문)** | 온실에서 찍은 익음 단계 이미지 약 700장 (Unripe / Half / Fully ripe) | 해당 논문: *Tomato Maturity Recognition with Convolutional Transformers* :contentReference[oaicite:2]{index=2} |
+| **Tomato fruits dataset for binary & multiclass classification** | 익음 상태 + 불량 상태 포함 (binary, multiclass) | Mendeley: *Tomato fruits dataset* :contentReference[oaicite:3]{index=3} |
+| **Healthy Tomato Image Dataset** | 건강한 토마토 이미지 위주 (품질/병해 판별 응용 가능) | Mendeley: *Healthy Tomato Image Dataset* :contentReference[oaicite:4]{index=4} |
+| **TOMATO (good / bad 클래스)** | 토마토를 “좋음 / 나쁨”으로 구분 | Mendeley: *TOMATO* 데이터셋 :contentReference[oaicite:5]{index=5} |
+| **Spoiled & fresh fruit inspection dataset** | 토마토 포함, 신선 vs 부패 상태 이미지 포함 | Mendeley: *Spoiled and fresh fruit inspection dataset* :contentReference[oaicite:6]{index=6} |
+
 
 ---
 
